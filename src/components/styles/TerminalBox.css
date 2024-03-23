@@ -1,0 +1,30 @@
+
+.maximized {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.maximized-terminal {
+    width: 100vw;
+    height: 95vh;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bubble-animation {
+    animation: "bubbleAnimation 0.5s infinite alternate"
+}
