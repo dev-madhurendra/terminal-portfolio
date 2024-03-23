@@ -1,3 +1,4 @@
+import React from "react";
 import { SKILLS_DATA } from "../../utils/constants";
 import ProgressBar from "../ProgressBar";
 

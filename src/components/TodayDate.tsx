@@ -1,3 +1,4 @@
+import React from "react";
 import { TODAY_DATE } from "../utils/constants";
 
 const TodayDate = () => (
@@ -6,4 +7,4 @@ const TodayDate = () => (
   </div>
 );
 
-export default TodayDate
+export default TodayDate;

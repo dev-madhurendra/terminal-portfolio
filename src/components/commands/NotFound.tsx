@@ -1,3 +1,5 @@
+import React from "react";
+
 const NotFound = () => (
   <div className="text-gray-300 mt-2 mb-2">
     <h1 className="text-red-400">Command not found</h1>
@@ -5,4 +7,4 @@ const NotFound = () => (
   </div>
 );
 
-export default NotFound
+export default NotFound;

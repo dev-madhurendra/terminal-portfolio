@@ -1,3 +1,4 @@
+import React from "react";
 import { ICmdTextDisplayProp } from "../interface";
 
 const CmdTextDisplay = ({ cmd, time }: ICmdTextDisplayProp) => (
